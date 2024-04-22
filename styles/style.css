@@ -47,7 +47,7 @@ main {
     display: flex;
     width: 1920px;
     height: 1030px;
-    background: url("../img/Задний фон.png");
+    background: url("../img/background.png");
     align-items: center;
     flex-direction: column;
 }
