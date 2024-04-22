@@ -1,43 +1,166 @@
 @font-face {
+    font-family: Montserrat;
     src: url("../fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
 }
 body {
-    margin: unset;
-    background: #F4F4F4;
+    background: #E6E6E6;
 }
-header{
+header {
     display: flex;
     justify-content: center;
     align-items: center;
     background: #42AAFF;
+    height: 50px;
 }
-.container {
+.logo {
+    width: 45px;
+    height: 40px;
+}
+.header-container {
     display: flex;
     justify-content: space-between;
     width: 1440px;
+    align-items: center;
 }
-header p {
+header a {
     font-size: 16px;
     color: #F4F4F4;
 }
 .links{
     font-size: 16px;
     display: flex;
-    gap: 10px;
+    gap: 45px;
     color: #F4F4F4;
+    font-family: Montserrat, serif;
+    font-weight: 400;
 }
-main{
+main {
     display: flex;
     width: 1920px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
     flex-direction: column;
     align-items: center;
-    padding-top: 150px;
 }
-.h {
-    font-size: 48px;
-    color: #42AAFF;
+.hero {
+    display: flex;
+    width: 1920px;
+    height: 1030px;
+    background: url("../img/Задний фон.png");
+    align-items: center;
+    flex-direction: column;
 }
-.h2 {
+.hero h1 {
+    padding-top: 200px;
+    font-family: Montserrat, serif;
+    font-size: 96px;
+    color: #F4F4F4;
+    font-weight: 500;
+}
+.hero p {
+    padding-top: 30px;
+    font-family: Montserrat, serif;
+    font-size: 32px;
+    color: #F4F4F4;
+    font-weight: 400;
+}
+.description {
+    background: #F4F4F4;
+    border-radius: 25px;
+    width: 100%;
+    font-family: Montserrat, serif;
     font-size: 24px;
-    color: #42AAFF;
+    color: #000000;
+    padding: 15px;
+}
+.services__catalog {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Montserrat, serif;
+    font-size: 48px;
+    font-weight: 500;
+    color: #000000;
+    gap: 60px;
+}
+.container {
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.services__card {
+    width: 580px;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+}
+.services__card img {
+    position: absolute;
+    z-index: 1;
+    border-radius: 25px;
+}
+.services__card__description {
+    z-index: 2;
+    background: #F4F4F4;
+    display: flex;
+    max-height: 120px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 22px;
+    padding: 15px;
+    width: 100%
+}
+.services__card__description p {
+    font-family: Montserrat, serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.services__card__description h3 {
+    font-family: Montserrat, serif;
+    font-size: 32px;
+    font-weight: 500;
+}
+button {
+    font-family: Montserrat, serif;
+    font-size: 36px;
+    font-weight: 500;
+    color: #F4F4F4;
+    background: #42AAFF;
+    padding: 20px 50px;
+    border-radius: 25px;
+}
+.gallery {
+    padding-top: 60px;
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+    align-items: center;
+    font-family: Montserrat, serif;
+    font-size: 48px;
+    font-weight: 500;
+    color: #000000;
+}
+.gallery__card {
+    width: 580px;
+    height: 500px;
+    display: flex;
+}
+.gallery__card img {
+    border-radius: 25px;
+}
+footer {
+    margin-top: 100px;
+    padding: 15px;
+    background: #42AAFF;
+    width: 1920px;
+    height: 150px;
+    display: flex;
+    font-family: Montserrat, serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #F4F4F4;
 }
