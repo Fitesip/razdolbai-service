@@ -114,6 +114,22 @@ main {
     width: 100%;
     gap: 50px;
 }
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    max-width: 1920px;
+    width: 100%;
+    gap: 50px;
+}
+.home-photo__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    max-width: 1920px;
+    width: 100%;
+    gap: 50px;
+}
 .services__card {
     max-width: 580px;
     width: 100%;
